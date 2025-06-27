@@ -1,0 +1,38 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Emma",
+      "lastName": "MARTIN",
+      "age": 16,
+      "educationLevel": "Première",
+      "subjects": [
+        "Mathématiques",
+        "Physique"
+      ],
+      "tags": [
+        "Fréquent",
+        "Devoirs"
+      ],
+      "location": "Paris",
+      "description": "Recherche un soutien régulier en mathématiques et physique",
+      "availability": "Mercredi après-midi, Samedi"
+    }
+  ],
+  "matches": [
+  ],
+  "preferences": [
+    {
+      "studentId": 1,
+      "maxPrice": 40,
+      "preferredModes": [
+        "Présentiel",
+        "Visio"
+      ],
+      "preferredTeacherTags": [
+        "Structuré",
+        "Exigeant"
+      ]
+    }
+  ]
+}

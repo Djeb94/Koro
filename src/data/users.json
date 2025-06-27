@@ -1,0 +1,197 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Damien",
+      "lastName": "BESNARD",
+      "age": 35,
+      "profession": "Professeur d'Anglais",
+      "education": "Master en Langues Étrangères",
+      "experience": "10 ans",
+      "hourlyRate": 35,
+      "availability": "Lundi - Vendredi",
+      "location": "Paris",
+      "rating": 4.6,
+      "image": "profAnglais.webp",
+      "subjects": ["Anglais"],
+      "description": "Professeur expérimenté spécialisé dans l'enseignement de l'anglais",
+      "tags": ["Visio", "Présentiel", "Devoirs", "Fréquent", "Exigeant", "Structuré"],
+      "likedYou": false
+    },
+    {
+      "id": 2,
+      "firstName": "Abdoul",
+      "lastName": "DIAW",
+      "age": 33,
+      "profession": "Professeur d'Histoire",
+      "education": "Master en Histoire",
+      "experience": "8 ans",
+      "hourlyRate": 30,
+      "availability": "Lundi - Jeudi",
+      "location": "Villejuif",
+      "rating": 4.4,
+      "image": "profHistoire.webp",
+      "subjects": ["Histoire", "Géographie"],
+      "description": "Spécialiste en histoire moderne et contemporaine",
+      "tags": ["Présentiel", "Non-Devoirs", "Occasionnel", "Bienveillant", "Tolérant"],
+      "likedYou": false
+    },
+    
+    {
+      "id": 3,
+      "firstName": "Ibrahima",
+      "lastName": "SALL",
+      "age": 29,
+      "profession": "Professeur de Français",
+      "education": "Master en Langues",
+      "experience": "6 ans",
+      "hourlyRate": 31,
+      "availability": "Mardi - Samedi",
+      "location": "Nanterre",
+      "rating": 4.8,
+      "image": "profFrancais.webp",
+      "subjects": ["Français"],
+      "description": "Professeure native de francais, spécialisée dans la conversation",
+      "tags": ["Visio", "Présentiel", "Non-Devoirs", "Fréquent", "Motivant", "Souple"],
+      "likedYou": false
+    },
+    {
+       "id": 4,
+      "firstName": "Sarah",
+      "lastName": "COHEN",
+      "age": 54,
+      "profession": "Professeur de SVT",
+      "education": "Master en Biologie",
+      "experience": "23 ans",
+      "hourlyRate": 36,
+      "availability": "Mercredi - Dimanche",
+      "location": "Montreuil",
+      "rating": 4.2,
+      "image": "profBio.avif",
+      "subjects": ["SVT"],
+      "description": "Enseignante experimenté passionnée par les sciences de la vie",
+      "tags": ["Visio", "Présentiel", "Non-Devoirs", "Occasionnel", "Bienveillant", "Motivant"],
+      "likedYou": false
+    },
+    {
+      "id": 5,
+      "firstName": "Lucas",
+      "lastName": "PETIT",
+      "age": 45,
+      "profession": "Professeur de JAVA",
+      "education": "Ingénieur informatique",
+      "experience": "12 ans",
+      "hourlyRate": 38,
+      "availability": "Lundi - Vendredi",
+      "location": "Créteil",
+      "rating": 4.7,
+      "image": "profJava.jpg",
+      "subjects": ["JAVA"],
+      "description": "Ingénieur en informatique passionné par l'enseignement et par les nouvelles technologies",
+      "tags": ["Présentiel", "Devoirs", "Fréquent", "Structuré", "Exigeant"],
+      "likedYou": false
+    },
+    {
+      "id": 6,
+      "firstName": "Alexandre",
+      "lastName": "DUBOIS",
+      "age": 75,
+      "profession": "Professeur de Philosophie",
+      "education": "Agrégation de Philosophie",
+      "experience": "50 ans",
+      "hourlyRate": 40,
+      "availability": "Lundi - Dimanche",
+      "location": "Saint-Denis",
+      "rating": 4.9,
+      "image": "profPhilo.webp",
+      "subjects": ["Philosophie"],
+      "description": "Agrégé de philosophie, spécialisé dans la préparation au bac",
+      "tags": ["Présentiel", "Devoirs", "Fréquent", "Structuré", "Tolérant"],
+      "likedYou": false
+    },
+    {
+      "id": 7,
+      "firstName": "Sophie",
+      "lastName": "BERNARD",
+      "age": 31,
+      "profession": "Professeur de Mathématiques/Physique",
+      "education": "Master en Physique-Mathématiques",
+      "experience": "8 ans",
+      "hourlyRate": 38,
+      "availability": "Mercredi - Dimanche",
+      "location": "Saint-Mandé",
+      "rating": 4.7,
+      "image": "profPhysique.webp",
+      "subjects": ["Mathématiques", "Physique"],
+      "description": "Enseignante passionnée de physique et mathématiques, avec une approche interactive",
+      "tags": ["Visio", "Présentiel", "Devoirs", "Fréquent", "Motivant", "Bienveillant","Exigeant"],
+      "likedYou": false
+    },
+     {
+      "id": 8,
+      "firstName": "Mathieu",
+      "lastName": "CRESPIN",
+      "age": 25,
+      "profession": "Professeur de Mathématiques",
+      "education": "Doctorat en Mathématiques",
+      "experience": "5 ans",
+      "hourlyRate": 29,
+      "availability": "Lundi - Samedi",
+      "location": "Bry-sur-marne",
+      "rating": 4.9,
+      "image": "profMaths.webp",
+      "subjects": ["Mathématiques", "Physique"],
+      "description": "Jeune professeur dynamique spécialisé en mathématiques",
+      "tags": ["Présentiel", "Devoirs", "Fréquent","Exigeant", "Structuré"],
+      "likedYou": true
+    }
+  ],
+  "matches": [],
+  "reviews": [
+    {
+      "teacherId": 1,
+      "rating": 4.6,
+      "totalReviews": 47
+    },
+    {
+      "teacherId": 2,
+      "rating": 4.8,
+      "totalReviews": 65
+    },
+    {
+      "teacherId": 3,
+      "rating": 4.4,
+      "totalReviews": 38
+    },
+    {
+      "teacherId": 4,
+      "rating": 4.7,
+      "totalReviews": 52
+    },
+    {
+      "teacherId": 5,
+      "rating": 4.8,
+      "totalReviews": 43
+    },
+    {
+      "teacherId": 6,
+      "rating": 4.7,
+      "totalReviews": 58
+    },
+    {
+      "teacherId": 7,
+      "rating": 4.5,
+      "totalReviews": 31
+    },
+    {
+      "teacherId": 8,
+      "rating": 4.9,
+      "totalReviews": 67
+    },
+    {
+      "teacherId": 9,
+      "rating": 4.6,
+      "totalReviews": 45
+    }
+  ]
+}
